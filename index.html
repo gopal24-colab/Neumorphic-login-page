@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/5f6b46de99e9402099bb5b6a728a6e1c.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Neumorphic Login Page</title>
+</head>
+<body>
+    <div class="login_container">
+        <div class="logo"></div>
+        <div class="title">Train Ticket Booking</div>
+        <div class="sub_title">Grabe the offers!</div>
+
+        <div class="filds" id="login_page">
+            <form action="#">
+                <div class="form__div">
+                    <input type="text" name="" class="form__input" placeholder=" ">
+                    <label for="" class="form__label">Email</label>
+                </div>
+                <div class="form__div">
+                    <input type="password" name="" class="form__input" placeholder=" ">
+                    <label for="" class="form__label">Password</label>
+                </div>
+                <button class="login_btn">Login</button>
+                <div class="link">
+                    <a href="#">Forgot password?</a> or <a href="#" id="sign_up_page">Sign up</a>
+                </div>
+            </form>
+        </div>
+
+        <!-- sign up form -->
+
+        <div class="filds" id="sign_up">
+            <form action="#">
+                
+                <div class="first_filds">
+                    <div class="form__div">
+                        <input type="text" name="" class="form__input" placeholder=" ">
+                        <label for="" class="form__label">Username</label>
+                    </div>
+                    <div class="form__div">
+                        <input type="text" name="" class="form__input" placeholder=" ">
+                        <label for="" class="form__label">Email</label>
+                    </div>
+                    <div class="form__div">
+                        <input type="password" name="" class="form__input" placeholder=" ">
+                        <label for="" class="form__label">Password</label>
+                    </div>
+                    <div class="form__div">
+                        <input type="password" name="" class="form__input" placeholder=" ">
+                        <label for="" class="form__label">Confirm password</label>
+                    </div>
+                    <button type="button" class="login_btn" onclick="next_sign_page()">Next</button>
+                </div>
+
+                <div class="next_filds">
+
+                        <div class="form__div">
+                            <input type="text" name="" class="form__input" placeholder=" ">
+                            <label for="" class="form__label">Gender</label>
+                        </div>
+                        <div class="form__div">
+                            <input type="number" name="" class="form__input" placeholder=" ">
+                            <label for="" class="form__label">Mobile no</label>
+                        </div>
+                        <div class="form__div">
+                            <input type="number" name="" class="form__input" placeholder=" ">
+                            <label for="" class="form__label">Adharcard</label>
+                        </div>
+                        <button type="button" class="button-17"  onclick="back_to()"><i class="fa fa-arrow-left"></i>&nbsp Back</button>
+                        <button type="submit" class="login_btn">Sign Up</button>
+                        <div class="link">
+                            <a href="#">Forgot password?</a> or <a href="#" id="login_page_open">Login</a>
+                        </div>
+
+                </div>
+            </form>
+        </div>
+
+
+
+    </div>
+    <!-- Script login pages -->
+
+    <script src="script/script.js"></script>
+
+</body>
+</html>
